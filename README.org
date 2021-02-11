@@ -7,6 +7,7 @@
   - [[#set-the-docker-image-parameters][Set the docker image parameters]]
   - [[#log-in-to-the-registry][Log in to the registry]]
   - [[#build-the-image][Build the image]]
+  - [[#push-the-image][Push the image]]
   - [[#references][References]]
 
 ** Set the Github username
@@ -47,6 +48,12 @@ echo $GITHUB_TOKEN | docker login ghcr.io -u USERNAME --password-stdin
 
 #+BEGIN_SRC sh
 docker build -t "ghcr.io/$OWNER/$IMAGE:$TAG" .
+#+END_SRC
+
+** Push the image
+
+#+BEGIN_SRC sh
+docker push ghcr.io/$OWNER/$IMAGE:$TAG
 #+END_SRC
 
 ** References

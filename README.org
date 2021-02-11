@@ -2,8 +2,15 @@
 #+PROPERTY: header-args :session *shell docker* :results silent raw
 
 ** Contents                                                           :TOC_3:
+  - [[#set-the-github-username][Set the Github username]]
   - [[#create-a-personal-access-token][Create a Personal Access Token]]
   - [[#references][References]]
+
+** Set the Github username
+
+#+BEGIN_SRC sh
+USERNAME=
+#+END_SRC
 
 ** Create a Personal Access Token
 

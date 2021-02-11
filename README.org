@@ -2,7 +2,16 @@
 #+PROPERTY: header-args :session *shell docker* :results silent raw
 
 ** Contents                                                           :TOC_3:
+  - [[#create-a-personal-access-token][Create a Personal Access Token]]
   - [[#references][References]]
+
+** Create a Personal Access Token
+
+Create a new personal access token with the =write:packages= privileges.
+
+#+BEGIN_SRC sh
+GITHUB_TOKEN=
+#+END_SRC
 
 ** References
 

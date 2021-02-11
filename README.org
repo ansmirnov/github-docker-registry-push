@@ -4,6 +4,7 @@
 ** Contents                                                           :TOC_3:
   - [[#set-the-github-username][Set the Github username]]
   - [[#create-a-personal-access-token][Create a Personal Access Token]]
+  - [[#set-the-docker-image-parameters][Set the docker image parameters]]
   - [[#log-in-to-the-registry][Log in to the registry]]
   - [[#references][References]]
 
@@ -19,6 +20,20 @@ Create a new personal access token with the =write:packages= privileges.
 
 #+BEGIN_SRC sh
 GITHUB_TOKEN=
+#+END_SRC
+
+** Set the docker image parameters
+
+#+BEGIN_SRC sh
+OWNER=
+#+END_SRC
+
+#+BEGIN_SRC sh
+IMAGE=
+#+END_SRC
+
+#+BEGIN_SRC sh
+TAG=
 #+END_SRC
 
 ** Log in to the registry

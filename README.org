@@ -1,1 +1,2 @@
 #+TITLE: Pushing the docker image into the Github registry
+#+PROPERTY: header-args :session *shell docker* :results silent raw

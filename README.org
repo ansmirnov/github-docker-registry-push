@@ -1,2 +1,9 @@
 #+TITLE: Pushing the docker image into the Github registry
 #+PROPERTY: header-args :session *shell docker* :results silent raw
+
+** Contents                                                           :TOC_3:
+  - [[#references][References]]
+
+** References
+
+1. https://docs.github.com/en/packages/guides/pushing-and-pulling-docker-images
